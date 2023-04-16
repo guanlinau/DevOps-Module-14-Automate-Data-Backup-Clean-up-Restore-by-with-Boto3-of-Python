@@ -51,3 +51,10 @@ python volume-snapshots-cleanup.py
 #after cleanup
 ![image](image/Screenshot%202023-04-16%20at%2011.42.56%20am.png?raw=true)
 ###### Step5: Finish the restore logic function and run the program
+```
+python volume-restore.py
+```
+#before attach
+![image](image/Screenshot%202023-04-16%20at%205.18.21%20pm.png?raw=true)
+#after attach
+![image](image/Screenshot%202023-04-16%20at%205.18.34%20pm.png?raw=true)
