@@ -7,10 +7,10 @@ ec2_client = boto3.client('ec2', region_name="ap-southeast-2")
 def create_ec2_instance_volume_snapshot():
     volumes= ec2_client.describe_volumes(
         Filters=[
-        {
-        "Name":"tag:Name",
-        "Values":['production']
-        }
+            {
+                "Name":"tag:Name",
+                "Values":['production']
+            }
         ]
     )
 

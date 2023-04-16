@@ -33,7 +33,7 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
-###### Step 3: run the program
+###### Step 3: Finish the backup logic function and run the program
 ```
 python ec2-instance-volume-backup.py
 ```
@@ -41,3 +41,13 @@ python ec2-instance-volume-backup.py
 ![image](image/Screenshot%202023-04-15%20at%209.48.55%20pm.png?raw=true)
 ![image](image/Screenshot%202023-04-15%20at%209.57.11%20pm.png?raw=true)
 ![image](image/Screenshot%202023-04-15%20at%209.57.33%20pm.png?raw=true)
+
+###### Step4: Finish the clean up logic function and run the program
+```
+python volume-snapshots-cleanup.py
+```
+#before cleanup
+![image](image/Screenshot%202023-04-16%20at%2011.42.19%20am.png?raw=true)
+#after cleanup
+![image](image/Screenshot%202023-04-16%20at%2011.42.56%20am.png?raw=true)
+###### Step5: Finish the restore logic function and run the program
